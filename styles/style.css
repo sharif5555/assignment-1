@@ -249,12 +249,28 @@ text-align: center;
 }
 /*----- suppport section end--- */
 
-.foot{
+.footer-container{
     width: 1440px;
     height: 100px;
     border:2px solid red;
     border-radius: 16px;
-background: rgba(13, 19, 33, 0.03);
+ background-color: rgb(7, 2, 17);
+
     
+}
+.footer-first{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+   
+ width: 1140px;
+height: 100px;
+align-self: stretch;
+    
+
+}
+.footer-first p{
+    color: white;
 }
    
